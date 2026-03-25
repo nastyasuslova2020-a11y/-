@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Контакты — Нейрознайка</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-noise"></div>
+<header class="site-header" id="H">
+<div class="container nav-container">
+<a href="index.html" class="logo"><span class="logo-mark">N</span><span class="logo-text">Нейрознайка</span></a>
+<nav class="nav-links" id="NL">
+<a href="index.html" class="nav-link ">Главная</a>
+<a href="about.html" class="nav-link ">О технологии</a>
+<a href="applications.html" class="nav-link ">Применение</a>
+<a href="news.html" class="nav-link ">Новости</a>
+<a href="contact.html" class="nav-link nav-cta active">Контакты</a>
+</nav>
+<button class="burger" id="B"><span></span><span></span><span></span></button>
+</div>
+</header>
+<main><section class="page-hero">
+<div class="container">
+<span class="tag rv-up">Связаться с нами</span>
+<h1 class="page-title rv-up d1">Будьте<br><em>в курсе</em></h1>
+<p class="page-sub rv-up d2">Подпишитесь на веб-сайт или напишите нам — мы читаем каждое письмо.</p>
+</div>
+</section>
+<section class="contact-sec">
+<div class="container contact-grid">
+<div class="ci rv-left">
+<h2>Почему стоит подписаться</h2>
+<p>Каждую неделю — самые важные события в мире ИИ. Никакого спама, только суть.</p>
+<div class="perks">
+<div class="perk"><div class="perk-n">01</div><div><strong>Еженедельные обновления</strong><p>Пять главных новостей с аналитическим комментарием каждую пятницу.</p></div></div>
+<div class="perk"><div class="perk-n">02</div><div><strong>Эксклюзивные материалы</strong><p>Разборы новых архитектур, интервью с исследователями, переводы статей.</p></div></div>
+<div class="perk"><div class="perk-n">03</div><div><strong>Без рекламы</strong><p>Только образовательный контент, никаких партнёрских интеграций.</p></div></div>
+</div>
+<div class="cd">
+<div class="cd-item"><div class="cd-lbl">Email</div><a href="mailto:contact@neiroznaika.ru">contact@neiroznaika.ru</a></div>
+<div class="cd-item"><div class="cd-lbl">Телефон</div><a href="tel:+79001234567">+7 (900) 123-45-67</a></div>
+</div>
+</div>
+<div class="cf-wrap rv-right">
+<form id="CF" class="cf">
+<div class="form-row">
+<div class="fg"><label for="sn">Ваше имя</label><input id="sn" type="text" placeholder="Александр Иванов" required></div>
+<div class="fg"><label for="se">Email</label><input id="se" type="email" placeholder="alex@example.com" required></div>
+</div>
+<div class="fg"><label for="st">Интересующие темы</label>
+<select id="st"><option value="">Все темы</option><option value="tech">Технологии и модели</option><option value="sci">Научные исследования</option><option value="biz">Бизнес и инвестиции</option><option value="law">Регуляция и этика</option></select>
+</div>
+<div class="fg"><label for="sm">Сообщение (необязательно)</label><textarea id="sm" rows="4" placeholder="Какие темы вас интересуют?"></textarea></div>
+<button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">Подписаться на рассылку</button>
+<div id="CFB" class="ff"></div>
+</form>
+</div>
+</div>
+</section>
+
+<section class="faq-sec">
+<div class="container">
+<div class="sec-hdr rv-up"><span class="tag">FAQ</span><h2>Часто задаваемые вопросы</h2></div>
+<div class="faq-list">
+<div class="faq-item rv-up"><button class="faq-q">Как часто выходит рассылка?</button><div class="faq-a"><p>Еженедельно, по пятницам. 5–7 главных новостей с комментарием и ссылками на первоисточники.</p></div></div>
+<div class="faq-item rv-up d1"><button class="faq-q">Могу ли я отписаться в любой момент?</button><div class="faq-a"><p>Да, в каждом письме есть ссылка «Отписаться». Одно нажатие — и вы больше не будете получать наши письма.</p></div></div>
+<div class="faq-item rv-up d2"><button class="faq-q">Вы продаёте мои данные рекламодателям?</button><div class="faq-a"><p>Нет. Мы не передаём и не продаём данные третьим лицам. Собираем только имя и email для рассылки.</p></div></div>
+<div class="faq-item rv-up d3"><button class="faq-q">Как предложить тему для статьи?</button><div class="faq-a"><p>Напишите на contact@neiroznaika.ru или оставьте сообщение в форме выше.</p></div></div>
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="container footer-inner">
+<div class="footer-brand">
+<div class="logo"><span class="logo-mark">N</span><span class="logo-text">Нейрознайка</span></div>
+<p>Информационный портал о технологиях искусственного интеллекта.</p>
+</div>
+<div class="footer-links">
+<div class="fc"><div class="fc-t">Страницы</div>
+<a href="index.html">Главная</a><a href="about.html">О технологии</a>
+<a href="applications.html">Применение</a><a href="news.html">Новости</a><a href="contact.html">Контакты</a>
+</div>
+<div class="fc"><div class="fc-t">Нейросети</div>
+<a href="nn-chatgpt.html">ChatGPT</a><a href="nn-gemini.html">Google Gemini</a>
+<a href="nn-copilot.html">Microsoft Copilot</a><a href="nn-claude.html">Claude</a>
+<a href="nn-midjourney.html">Midjourney</a><a href="nn-perplexity.html">Perplexity AI</a>
+<a href="nn-stablediffusion.html">Stable Diffusion</a><a href="nn-grok.html">Grok</a>
+</div>
+</div>
+</div>
+<div class="footer-bottom"><div class="container"><span>© 2026 Нейрознайка. Все права защищены.</span></div></div>
+</footer>
+<button class="go-top" id="GT"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 14V4M9 4L4 9M9 4l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<script src="app.js"></script>
+</body>
+</html>

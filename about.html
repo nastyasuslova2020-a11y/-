@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>О технологии — Нейрознайка</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-noise"></div>
+<header class="site-header" id="H">
+<div class="container nav-container">
+<a href="index.html" class="logo"><span class="logo-mark">N</span><span class="logo-text">Нейрознайка</span></a>
+<nav class="nav-links" id="NL">
+<a href="index.html" class="nav-link ">Главная</a>
+<a href="about.html" class="nav-link active">О технологии</a>
+<a href="applications.html" class="nav-link ">Применение</a>
+<a href="news.html" class="nav-link ">Новости</a>
+<a href="contact.html" class="nav-link nav-cta ">Контакты</a>
+</nav>
+<button class="burger" id="B"><span></span><span></span><span></span></button>
+</div>
+</header>
+<main><section class="page-hero">
+<div class="container">
+<span class="tag rv-up">Основы</span>
+<h1 class="page-title rv-up d1">Что такое<br><em>искусственный интеллект</em></h1>
+<p class="page-sub rv-up d2">Глубокое погружение в историю, принципы работы и виды ИИ.</p>
+</div>
+</section>
+<section class="content-sec">
+<div class="container content-grid">
+<div class="content-text rv-left">
+<h2>Определение и история</h2>
+<p>Термин «искусственный интеллект» ввёл Джон Маккарти в 1956 году. ИИ прошёл несколько «вёсен» и «зим» — периодов оптимизма и разочарования. Переломным стал 2012 год: AlexNet выиграла ImageNet, снизив ошибку распознавания вдвое.</p>
+<p>Сегодня большие языковые модели — GPT-4, Gemini, Claude — демонстрируют способности, казавшиеся фантастикой десять лет назад: генерация кода, медицинская диагностика, юридический анализ.</p>
+</div>
+<div class="rv-right">
+<div class="timeline">
+<div class="tl-item"><div class="tl-year">1950</div><div class="tl-body"><strong>Тест Тьюринга</strong><p>Алан Тьюринг предложил критерий интеллекта машины через имитацию человека.</p></div></div>
+<div class="tl-item"><div class="tl-year">1956</div><div class="tl-body"><strong>Рождение ИИ</strong><p>Дартмутская конференция — первые программы играют в шашки и доказывают теоремы.</p></div></div>
+<div class="tl-item"><div class="tl-year">1997</div><div class="tl-body"><strong>Deep Blue</strong><p>Компьютер IBM победил чемпиона мира по шахматам Гарри Каспарова.</p></div></div>
+<div class="tl-item"><div class="tl-year">2012</div><div class="tl-body"><strong>Глубокое обучение</strong><p>AlexNet произвела революцию в компьютерном зрении, запустив современный ИИ-бум.</p></div></div>
+<div class="tl-item"><div class="tl-year">2017</div><div class="tl-body"><strong>Трансформеры</strong><p>Статья Google «Attention Is All You Need» заложила основу для GPT и BERT.</p></div></div>
+<div class="tl-item"><div class="tl-year">2022+</div><div class="tl-body"><strong>Генеративный ИИ</strong><p>ChatGPT, Midjourney, Sora — технологии стали доступны каждому.</p></div></div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="types-sec">
+<div class="container">
+<div class="sec-hdr rv-up"><span class="tag">Классификация</span><h2>Виды искусственного интеллекта</h2></div>
+<div class="types-grid">
+<div class="type-card rv-up"><div class="type-num">I</div><h3>Узкий ИИ (ANI)</h3><p>Решает конкретную задачу лучше человека: распознавание лиц, перевод, игра в Go. Это весь современный коммерческий ИИ.</p><div class="type-tags"><span>ChatGPT</span><span>AlphaFold</span><span>Siri</span></div></div>
+<div class="type-card rv-up d1"><div class="type-num">II</div><h3>Общий ИИ (AGI)</h3><p>Гипотетическая система с универсальными когнитивными способностями человека. Переносит знания между областями.</p><div class="type-tags"><span>В разработке</span><span>Теоретический</span></div></div>
+<div class="type-card rv-up d2"><div class="type-num">III</div><h3>Сверхинтеллект (ASI)</h3><p>Система, превосходящая человека во всех областях. Тема дискуссий о безопасности ИИ.</p><div class="type-tags"><span>Гипотетический</span></div></div>
+</div>
+</div>
+</section>
+
+<section class="steps-sec">
+<div class="container">
+<div class="sec-hdr rv-up"><span class="tag">Принцип работы</span><h2>Как обучаются нейронные сети</h2></div>
+<div class="steps-list">
+<div class="step rv-up"><div class="step-n">01</div><div class="step-b"><h3>Сбор и подготовка данных</h3><p>Нейросеть учится на примерах. Для языковых моделей это терабайты текста, для систем зрения — миллиарды размеченных изображений.</p></div></div>
+<div class="step rv-up d1"><div class="step-n">02</div><div class="step-b"><h3>Прямое распространение</h3><p>Данные проходят через слои нейронов. Каждый применяет веса и функцию активации. На выходе — предсказание модели.</p></div></div>
+<div class="step rv-up d2"><div class="step-n">03</div><div class="step-b"><h3>Вычисление ошибки</h3><p>Функция потерь сравнивает предсказание с правильным ответом. Задача обучения — минимизировать эту ошибку.</p></div></div>
+<div class="step rv-up d3"><div class="step-n">04</div><div class="step-b"><h3>Обратное распространение</h3><p>Backpropagation корректирует веса через градиентный спуск. Этот цикл повторяется миллионы раз.</p></div></div>
+</div>
+</div>
+</section>
+
+<section class="concepts-sec">
+<div class="container">
+<div class="sec-hdr rv-up"><span class="tag">Глоссарий</span><h2>Ключевые концепции</h2></div>
+<div class="concepts-grid">
+<div class="concept rv-up"><h4>Машинное обучение</h4><p>Алгоритмы, улучшающиеся через опыт без явного программирования каждого правила.</p></div>
+<div class="concept rv-up d1"><h4>Глубокое обучение</h4><p>Подвид ML с многослойными нейронными сетями, вдохновлёнными архитектурой мозга.</p></div>
+<div class="concept rv-up d2"><h4>Трансформеры</h4><p>Архитектура с механизмом внимания — основа всех современных языковых моделей.</p></div>
+<div class="concept rv-up d3"><h4>RLHF</h4><p>Обучение с подкреплением через обратную связь от людей — ключевой метод выравнивания LLM.</p></div>
+<div class="concept rv-up"><h4>Эмбеддинги</h4><p>Числовые представления слов в многомерном пространстве, сохраняющие смысловые связи.</p></div>
+<div class="concept rv-up d1"><h4>Контекстное окно</h4><p>Максимальное количество токенов, которое модель «видит» за один раз — от 4K до 1M.</p></div>
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="container footer-inner">
+<div class="footer-brand">
+<div class="logo"><span class="logo-mark">N</span><span class="logo-text">Нейрознайка</span></div>
+<p>Информационный портал о технологиях искусственного интеллекта.</p>
+</div>
+<div class="footer-links">
+<div class="fc"><div class="fc-t">Страницы</div>
+<a href="index.html">Главная</a><a href="about.html">О технологии</a>
+<a href="applications.html">Применение</a><a href="news.html">Новости</a><a href="contact.html">Контакты</a>
+</div>
+<div class="fc"><div class="fc-t">Нейросети</div>
+<a href="nn-chatgpt.html">ChatGPT</a><a href="nn-gemini.html">Google Gemini</a>
+<a href="nn-copilot.html">Microsoft Copilot</a><a href="nn-claude.html">Claude</a>
+<a href="nn-midjourney.html">Midjourney</a><a href="nn-perplexity.html">Perplexity AI</a>
+<a href="nn-stablediffusion.html">Stable Diffusion</a><a href="nn-grok.html">Grok</a>
+</div>
+</div>
+</div>
+<div class="footer-bottom"><div class="container"><span>© 2026 Нейрознайка. Все права защищены.</span></div></div>
+</footer>
+<button class="go-top" id="GT"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 14V4M9 4L4 9M9 4l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<script src="app.js"></script>
+</body>
+</html>

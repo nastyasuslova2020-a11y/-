@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Новости — Нейрознайка</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-noise"></div>
+<header class="site-header" id="H">
+<div class="container nav-container">
+<a href="index.html" class="logo"><span class="logo-mark">N</span><span class="logo-text">Нейрознайка</span></a>
+<nav class="nav-links" id="NL">
+<a href="index.html" class="nav-link ">Главная</a>
+<a href="about.html" class="nav-link ">О технологии</a>
+<a href="applications.html" class="nav-link ">Применение</a>
+<a href="news.html" class="nav-link active">Новости</a>
+<a href="contact.html" class="nav-link nav-cta ">Контакты</a>
+</nav>
+<button class="burger" id="B"><span></span><span></span><span></span></button>
+</div>
+</header>
+<main><section class="page-hero">
+<div class="container">
+<span class="tag rv-up">Новости</span>
+<h1 class="page-title rv-up d1">Новости<br><em>мира ИИ</em></h1>
+<p class="page-sub rv-up d2">Самые важные события и исследования в области искусственного интеллекта.</p>
+</div>
+</section>
+<section class="news-sec">
+<div class="container">
+<div class="filters rv-up">
+<button class="fbtn on" data-f="all">Все</button>
+<button class="fbtn" data-f="tech">Технологии</button>
+<button class="fbtn" data-f="sci">Наука</button>
+<button class="fbtn" data-f="law">Регуляция</button>
+<button class="fbtn" data-f="agro">АПК</button>
+</div>
+<div class="news-grid">
+<article class="nc feat rv-up" data-cat="tech">
+<div class="news-meta"><span class="ntag">Технологии</span><span class="ndate">15 января 2026</span></div>
+<h2>ChatGPT-5: новый уровень рассуждений и понимания контекста</h2><p>OpenAI представила пятое поколение ChatGPT с принципиально новой архитектурой рассуждений. Модель решает олимпийские задачи, пишет профессиональный код и удерживает контекст в сотнях тысяч токенов.</p><p>По внутренним тестам GPT-5 превзошла GPT-4 на 30–40%. Особенно впечатляют результаты в юридическом анализе и сложном планировании.</p>
+</article>
+<article class="nc rv-up" data-cat="sci">
+<div class="news-meta"><span class="ntag">Наука</span><span class="ndate">19 июня 2025</span></div>
+<h2>DeepMind ускоряет разработку батарей нового поколения</h2><p>Система GNoME предсказала 2,2 млн новых кристаллических структур, из которых 380 000 перспективны для батарей и солнечных панелей.</p><p>Открытие материалов теперь занимает дни вместо десятилетий. Батареи нового поколения могут появиться через 3–5 лет вместо 20.</p>
+</article>
+<article class="nc rv-up" data-cat="law">
+<div class="news-meta"><span class="ntag">Регуляция</span><span class="ndate">10 марта 2026</span></div>
+<h2>Евросоюз принял первый в мире закон об ИИ</h2><p>EU AI Act вступил в силу — первый комплексный закон, регулирующий разработку и применение ИИ. Системы классифицируются по уровню риска.</p><p>Под запрет попали социальный рейтинг и биометрическое наблюдение. Высокорисковые системы потребуют обязательной сертификации.</p>
+</article>
+<article class="nc rv-up" data-cat="agro">
+<div class="news-meta"><span class="ntag">АПК</span><span class="ndate">2 февраля 2025</span></div>
+<h2>ИИ-дроны увеличили урожайность на 30% в Европе</h2><p>Дроны с компьютерным зрением снижают расход пестицидов на 65%, точечно обрабатывая поражённые растения в Нидерландах и Германии.</p><p>Мультиспектральный анализ обнаруживает болезни за 10–14 дней до видимых признаков. Урожайность выросла на 25–35%.</p>
+</article>
+<article class="nc rv-up" data-cat="tech">
+<div class="news-meta"><span class="ntag">Технологии</span><span class="ndate">28 ноября 2025</span></div>
+<h2>Anthropic выпустила Claude 4: прорыв в безопасном ИИ</h2><p>Новая версия демонстрирует значительный прогресс в следовании инструкциям и честности. Claude 4 обогнал GPT-4o на бенчмарках безопасности.</p>
+</article>
+<article class="nc rv-up" data-cat="sci">
+<div class="news-meta"><span class="ntag">Наука</span><span class="ndate">5 октября 2025</span></div>
+<h2>GraphCast: ИИ-прогноз погоды превзошёл суперкомпьютеры</h2><p>Модель DeepMind делает 10-дневный прогноз за 60 секунд. Точность превысила лучшие мировые метеоцентры по 90% ключевых метрик.</p>
+</article>
+<article class="nc rv-up" data-cat="tech">
+<div class="news-meta"><span class="ntag">Технологии</span><span class="ndate">14 августа 2025</span></div>
+<h2>Sora от OpenAI: генерация минутного видео по описанию</h2><p>OpenAI открыла широкий доступ к Sora — системе, создающей видео до 60 секунд с кинематографическим качеством. Голливуд уже тестирует технологию.</p>
+</article>
+<article class="nc rv-up" data-cat="law">
+<div class="news-meta"><span class="ntag">Регуляция</span><span class="ndate">22 июля 2025</span></div>
+<h2>США: подписан исполнительный указ об ответственном ИИ</h2><p>Указ обязывает разработчиков раскрывать результаты тестирования безопасности. NIST разрабатывает стандарты оценки рисков ИИ-систем.</p>
+</article>
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="container footer-inner">
+<div class="footer-brand">
+<div class="logo"><span class="logo-mark">N</span><span class="logo-text">Нейрознайка</span></div>
+<p>Информационный портал о технологиях искусственного интеллекта.</p>
+</div>
+<div class="footer-links">
+<div class="fc"><div class="fc-t">Страницы</div>
+<a href="index.html">Главная</a><a href="about.html">О технологии</a>
+<a href="applications.html">Применение</a><a href="news.html">Новости</a><a href="contact.html">Контакты</a>
+</div>
+<div class="fc"><div class="fc-t">Нейросети</div>
+<a href="nn-chatgpt.html">ChatGPT</a><a href="nn-gemini.html">Google Gemini</a>
+<a href="nn-copilot.html">Microsoft Copilot</a><a href="nn-claude.html">Claude</a>
+<a href="nn-midjourney.html">Midjourney</a><a href="nn-perplexity.html">Perplexity AI</a>
+<a href="nn-stablediffusion.html">Stable Diffusion</a><a href="nn-grok.html">Grok</a>
+</div>
+</div>
+</div>
+<div class="footer-bottom"><div class="container"><span>© 2026 Нейрознайка. Все права защищены.</span></div></div>
+</footer>
+<button class="go-top" id="GT"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 14V4M9 4L4 9M9 4l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<script src="app.js"></script>
+</body>
+</html>
